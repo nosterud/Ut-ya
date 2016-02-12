@@ -5,6 +5,7 @@ var utoyaOrdListJSON = {
             "ord": "TERRORISME",
             "uttalelse": "[tæru'rismə]",
             "ord_beskrivelse": "Substantiv maskulin entall/singular.",
+            "tweets_src":"../bilder/utoyatweetSorg.png",
             "bruk": [
                 {
                     "1": "1. Bruk av vold og trusler for å true eller tvinge, spesielt for                          politiske formål."
@@ -23,6 +24,7 @@ var utoyaOrdListJSON = {
             "ord": "ANGREP",
             "uttalelse": "['angre:p]",
             "ord_beskrivelse": "Substantiv nøytrum.",
+            "tweets_src":"../bilder/terroristtweet.png",
             "bruk":[
                 {
                     "1": "1. Voldelig overfall."
@@ -41,6 +43,7 @@ var utoyaOrdListJSON = {
             "ord": "EKSTREMIST",
             "uttalelse": "[əkstɾəˈmist]",
             "ord_beskrivelse": "Substantiv maskulin",
+            "tweets_src": "../bilder/ekstremistTweet.png",
             "bruk": [
                 {
                     "1": ""
@@ -58,6 +61,7 @@ var utoyaOrdListJSON = {
             "ord": "RADIKAL",
             "uttalelse": "[radıˈkɑːl]",
             "ord_beskrivelse": "Adjektiv",
+            "tweets_src": "../bilder/radikalTweet.png",
             "bruk": [
                 {
                     "1": ""
@@ -76,6 +80,7 @@ var utoyaOrdListJSON = {
             "ord": "TERRORIST",
             "uttalelse": "[[tæɾu'ɾist]",
             "ord_beskrivelse": "Substantiv maskulin",
+            "tweets_src":"../bilder/terroristtweet.png",
             "bruk": [
                 {
                     "1": ""
@@ -93,6 +98,7 @@ var utoyaOrdListJSON = {
             "ord": "MUSLIM",
             "uttalelse": "[mʉ'sliːm]",
             "ord_beskrivelse": "Substantiv maskulin",
+            "tweets_src": "../bilder/muslimTweet.png",
             "bruk": [
                 {
                     "1": ""
