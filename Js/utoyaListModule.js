@@ -227,6 +227,7 @@ var SIDEFUNCTIONALITY = {
     //HTML-objekter
     $terrorism: null,
     $mainCategories: null,
+    $h2: null,
 
     init: function () {
 
@@ -234,19 +235,22 @@ var SIDEFUNCTIONALITY = {
 
             var setElements = function () {
 
-                SF.$terrorism = $("#terrorism");
-                SF.$mainCategories = $("#mainCategories")
+                SF.$terrorism = $("#terror");
+                SF.$mainCategories = $("#mainCategories");
 
             }(); //--- end setElements
 
             var setEvents = function () {
 
-                $(document).on("mouseenter", "#terrorism", function () {
+                //$("#terror").click(function() {
+                  //  alert("alskjds");   
+                //});
+                
+                $(document).on("mouseenter", "#mainCategories", function () {
                     $(this)
                         .css({
-                            "background-color": "rgb(200,0,0)"
-                        }, 300)
-
+                        "cursor": "pointer"
+                    })
                 });
 
             }(); // ----- end setEvents
@@ -254,3 +258,5 @@ var SIDEFUNCTIONALITY = {
         } //---- end init: function
 
 }; //---- end SIDEFUNCTIONALITY
+
+SIDEFUNCTIONALITY.init();
