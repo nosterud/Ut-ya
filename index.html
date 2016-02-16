@@ -7,37 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>utøya</title>
     <style>
-        header {
-            position: relative;
-            top: 50px;
-            width: 45%;
-            margin-left: auto;
-            margin-right: auto;
-            border-left: 1px solid white;
-            padding-left: 10px;
-            font-size: 25px;
-            font-family: serif;
-            color: white;
-        }
-        
-        #underline {
-            font-size: 25px;
-        }
-        
-        #mainCategories {
-            position: relative;
-            left: 400px;
-            top: 300px;
-            position: absolute;
-            border-right: 1px solid white;
-        }
-        
-        h2 {
-            padding-right: 50px;
-            margin-top: 0px;
-            margin-bottom: 0px;
-            color: white;
-        }
+      
     </style>
 </head>
 
@@ -83,7 +53,7 @@
                 
                 var setEvents = function() {
                     
-                    $(document).on("click", "#terrorism", function(){
+                    $(document).on("mouseenter", "#terrorism", function(){
                         $(this)
                             .css({
                             "background-color": "rgb(200,0,0)"

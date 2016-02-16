@@ -1,7 +1,36 @@
-html, body{
+html, body {
     width: 100%;
     background-color: rgb(25, 52, 65);
 }
 
-#container{
+header {
+    position: relative;
+    top: 50px;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px solid white;
+    padding-left: 10px;
+    font-size: 25px;
+    font-family: serif;
+    color: white;
+}
+
+#underline {
+    font-size: 25px;
+}
+
+#mainCategories {
+    position: relative;
+    left: 400px;
+    top: 300px;
+    position: absolute;
+    border-right: 1px solid white;
+}
+
+h2 {
+    padding-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
 }
