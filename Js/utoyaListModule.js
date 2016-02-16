@@ -5,7 +5,7 @@ var utoyaOrdListJSON = {
             "ord": "TERRORISME",
             "uttalelse": "[tæru'rismə]",
             "ord_beskrivelse": "Substantiv maskulin entall/singular.",
-            "tweets_src":"../bilder/utoyatweetSorg.png",
+            "tweets_src": "../bilder/utoyatweetSorg.png",
             "bruk": [
                 {
                     "1": "1. Bruk av vold og trusler for å true eller tvinge, spesielt for                          politiske formål."
@@ -24,8 +24,8 @@ var utoyaOrdListJSON = {
             "ord": "ANGREP",
             "uttalelse": "['angre:p]",
             "ord_beskrivelse": "Substantiv nøytrum.",
-            "tweets_src":"../bilder/terroristtweet.png",
-            "bruk":[
+            "tweets_src": "../bilder/terroristtweet.png",
+            "bruk": [
                 {
                     "1": "1. Voldelig overfall."
                 },
@@ -74,13 +74,13 @@ var utoyaOrdListJSON = {
                 }
             ],
             "beskrivelse": "En som er radikal, tenderer mot å være revolusjonær. Motsetningen til radikal er dermed konservativ, det å gå inn for en stykkevis og forsiktig endring, basert på det bestående.",
-            "ekstraTekst": "Uttrykket radikalisme brukes imidlertid ofte på en nokså utvannet måte, nemlig om en oppfatning som innebærer raskere gradvis endring enn konservative oppfatninger gjør. Personer og grupper som kaller seg radikale er også ofte betinget radikale, eller, potensielt konservative; de kan ønske en grunnleggende endring av eksisterende forhold, men insistere på at den nye ordenen skal komme for å bli. Både kommunister og fascister kan slik sett sees på som betinget radikale." 
+            "ekstraTekst": "Uttrykket radikalisme brukes imidlertid ofte på en nokså utvannet måte, nemlig om en oppfatning som innebærer raskere gradvis endring enn konservative oppfatninger gjør. Personer og grupper som kaller seg radikale er også ofte betinget radikale, eller, potensielt konservative; de kan ønske en grunnleggende endring av eksisterende forhold, men insistere på at den nye ordenen skal komme for å bli. Både kommunister og fascister kan slik sett sees på som betinget radikale."
         },
         {
             "ord": "TERRORIST",
             "uttalelse": "[[tæɾu'ɾist]",
             "ord_beskrivelse": "Substantiv maskulin",
-            "tweets_src":"../bilder/terroristtweet.png",
+            "tweets_src": "../bilder/terroristtweet.png",
             "bruk": [
                 {
                     "1": ""
@@ -221,3 +221,36 @@ var utoyaOrdListJSON = {
 
     ]
 };
+
+var SIDEFUNCTIONALITY = {
+
+    //HTML-objekter
+    $terrorism: null,
+    $mainCategories: null,
+
+    init: function () {
+
+            var SF = SIDEFUNCTIONALITY;
+
+            var setElements = function () {
+
+                SF.$terrorism = $("#terrorism");
+                SF.$mainCategories = $("#mainCategories")
+
+            }(); //--- end setElements
+
+            var setEvents = function () {
+
+                $(document).on("mouseenter", "#terrorism", function () {
+                    $(this)
+                        .css({
+                            "background-color": "rgb(200,0,0)"
+                        }, 300)
+
+                });
+
+            }(); // ----- end setEvents
+
+        } //---- end init: function
+
+}; //---- end SIDEFUNCTIONALITY
