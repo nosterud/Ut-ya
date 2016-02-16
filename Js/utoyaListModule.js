@@ -72,7 +72,7 @@ var utoyaOrdListJSON = {
                 {
                     "3": ""
                 }
-            ],,
+            ],
             "beskrivelse": "En som er radikal, tenderer mot å være revolusjonær. Motsetningen til radikal er dermed konservativ, det å gå inn for en stykkevis og forsiktig endring, basert på det bestående.",
             "ekstraTekst": "Uttrykket radikalisme brukes imidlertid ofte på en nokså utvannet måte, nemlig om en oppfatning som innebærer raskere gradvis endring enn konservative oppfatninger gjør. Personer og grupper som kaller seg radikale er også ofte betinget radikale, eller, potensielt konservative; de kan ønske en grunnleggende endring av eksisterende forhold, men insistere på at den nye ordenen skal komme for å bli. Både kommunister og fascister kan slik sett sees på som betinget radikale." 
         },
@@ -91,7 +91,7 @@ var utoyaOrdListJSON = {
                 {
                     "3": ""
                 }
-            ],,
+            ],
             "beskrivelse": "Person som bruker terror eller terrorisme som et politisk våpen. Bruken av etiketten &quot;terrorist&quot; er ofte kontroversiell eller subjektiv , ettersom en persons terrorisme kan være en annens &quot; frihetskjemper&quot;, og vice versa, avhengig av noens personlige ideologi og tro. En kynisk definisjon kan være at en terrorist er noen som myrder eller terroriserer flere av dem terroristen kjemper for, enn sine antatte fiender."
         },
         {
@@ -147,8 +147,7 @@ var utoyaOrdListJSON = {
                 }
             ],
             "beskrivelse": "Katastrofe brukes om en plutselig, ulykkelig omveltning i et menneskes liv; voldsom, ødeleggende naturbegivenhet.",
-            "ekstraTekst": "Begre­per som «kata­stro­fer», «tra­ge­dier» og «mare­ritt» gir bestemte kon­no­ta­sjo­ner. De er beteg­nel­ser på hen­del­ser som er for­fer­de­lige, men anty­der sam­ti­dig at det ikke står noen skyl­dige aktø­rer bak. Ingen kan jo hol­des ansvar­lig for en natur­ka­ta­strofe.
-"
+            "ekstraTekst": "Begreper som «katastrofer», «tragedier» og «mareritt» gir bestemte konnotasjoner. De er betegnelser på hendelser som er forferdelige, men antyder samtidig at det ikke står noen skyldige aktører bak. Ingen kan jo holdes ansvarlig for en naturkatastrofe."
         },
         {
             "ord": "UMENNESKELIG",
@@ -173,8 +172,7 @@ var utoyaOrdListJSON = {
             "ord_beskrivelse": "Substantiv maskulin",
             "bruk": [
                 {
-                    "1": "1. Vanvidd, stormannsg- / det er den rene g- / dette er g-
-"
+                    "1": "1. Vanvidd, stormannsg- / det er den rene g- / dette er g-"
                 },
                 {
                     "2": "2. Villhet, yrhet, fartsg-"
@@ -201,8 +199,7 @@ var utoyaOrdListJSON = {
                     "3": ""
                 }
             ],
-            "beskrivelse": "Etter gjerningsmannens offentliggjøring blir en annen for­tolk­nings­ramme akti­vert. Hen­del­sen omta­les fort­satt som gru­som, gjer­nings­man­nen karak­te­ri­se­res som draps­mann og mor­der – men altså ikke som ter­ro­rist, slik man gjorde tid­li­gere på dagen. Beteg­nel­sen «draps­mann» er selv­føl­ge­lig svært nega­tivt ladet, men det er mer knyt­tet til «almin­ne­lig» kri­mi­na­li­tet enn ter­ror. Det kan med andre ord virke som om mediene går fra å tolke hen­del­sene inn i en ter­ror­ramme til å tolke dem i en kriminalitetsramme.
-"
+            "beskrivelse": "Etter gjerningsmannens offentliggjøring blir en annen for­tolk­nings­ramme akti­vert. Hen­del­sen omta­les fort­satt som gru­som, gjer­nings­man­nen karak­te­ri­se­res som draps­mann og mor­der – men altså ikke som ter­ro­rist, slik man gjorde tid­li­gere på dagen. Beteg­nel­sen «draps­mann» er selv­føl­ge­lig svært nega­tivt ladet, men det er mer knyt­tet til «almin­ne­lig» kri­mi­na­li­tet enn ter­ror. Det kan med andre ord virke som om mediene går fra å tolke hen­del­sene inn i en ter­ror­ramme til å tolke dem i en kriminalitetsramme."
         },
         {
             "ord": "KRISTEN",

@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>utøya</title>
     <style>
-        header{
+        header {
             position: relative;
+            top: 50px;
             width: 45%;
             margin-left: auto;
             margin-right: auto;
@@ -17,22 +19,43 @@
             font-family: serif;
             color: white;
         }
-        #underline{
+        
+        #underline {
             font-size: 25px;
+        }
+        
+        #mainCategories {
+            position: relative;
+            left: 400px;
+            top: 300px;
+            position: absolute;
+            border-right: 1px solid white;
+        }
+        
+        h2 {
+            padding-right: 50px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            color: white;
         }
     </style>
 </head>
 
 <body>
-    
+
     <div id="container">
         <header>
             <h1>MEDIADEFINISJONER 22.07.11 <span id="underline">Forskjellen mellom klokkeslettene 15.30 - 22.30 og  22.45 - 06.00.</span></h1>
-            
+
         </header>
-        
+
         <section id="mainCategories">
-            <h2 id="terrorism"></h2>
+            <h2 id="terrorism">TERRORISME<h2>
+            <h2 id="attack">ANGREP<h2>
+            <h2 id="ekstremist">EKSTREMIST<h2>
+            <h2 id="radical">RADIKAL<h2>
+            <h2 id="terrorist">TERRORIST<h2>
+            <h2 id="muslim">MUSLIM<h2>
         
         </section>
     
@@ -43,6 +66,36 @@
     <script src="Js/jquery.js"></script>
     <script>
         
+        var SIDEFUNCTIONALITY = {
+            
+            //HTML-objekter
+            //$terrorism: null,
+            
+            init: function () {
+                
+                var SF = SIDEFUNCTIONALITY;
+                
+                var setElements = function () {
+                    
+                    //SF.$terrorism = $("#terrorism");
+                    
+                }();//--- end setElements
+                
+                var setEvents = function() {
+                    
+                    $(document).on("mouseenter", "#terrorism", function(){
+                        $(this)
+                            .css({
+                            "background-color": "rgb(200,0,0)"
+                        }, 300)
+                        
+                    });
+                    
+                }();// ----- end setEvents
+                
+            } //---- end init: function
+            
+        }; //---- end SIDEFUNCTIONALITY
     
     </script>
     
