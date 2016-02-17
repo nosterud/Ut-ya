@@ -223,7 +223,7 @@ var utoyaOrdListJSON = {
 
     ]
 };
-}());// end UTOYA_INFO_MODULE
+
 
     function getList(){
         return utoyaOrdListJSON.utoyaOrdList;
@@ -232,7 +232,7 @@ var utoyaOrdListJSON = {
     return{
         getList: getList
 };
-
+}());// end UTOYA_INFO_MODULE
     var SITEFUNCTIONALITY = {
 
     //Array
@@ -264,15 +264,16 @@ var utoyaOrdListJSON = {
                         "cursor": "pointer" 
                     })
                 });
+                
                 $("#terror").mouseenter(function(){
                     SF.info(SITEFUNCTIONALITY.getList);
-                })
+                });
                         
-                }
+                
 
             }(); // ----- end setEvents
 
-        } //---- end init: function
+        }, //---- end init: function
         
      info: function (list) {
          
@@ -284,16 +285,15 @@ var utoyaOrdListJSON = {
             if (wantedInfo === list[i].ord()) {
                 var $infoDiv = $("<div>");
                 $infoDiv
-                    .html("<div>" + "<h2>" + list[i].ord + "</h2><h3>" + list[i].uttalelse + "</h3>" + "<h3>" + list[i].ord_beskrivelse + "</h3>" + "<h3>" + list[i].beskrivelse + "</h3>"// "<img src=" + list[i].tweets_src + "></img>
-                          "s</div>")
+                    .html("<div>" + "<h2>" + list[i].ord + "</h2><h3>" + list[i].uttalelse + "</h3><h3>" + list[i].ord_beskrivelse + "</h3><h3>" + list[i].beskrivelse + "</h3></div>")
                     .attr("id", i)
 
                 $("#infoSection").append($infoDiv);
-            }
-        };
+            }// end if statement
+        };// end for løkke
 
 
-    }
+    }//end Info function
 
 }; //---- end SIDEFUNCTIONALITY
 
