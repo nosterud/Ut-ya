@@ -249,7 +249,8 @@ var utoyaOrdListJSON = {
             var SF = SITEFUNCTIONALITY;
 
             var setElements = function () {
-
+                
+                SF.$infoSection =$("#info")
                 SF.$terrorism = $("#terror");
                 SF.$mainCategories = $("#mainCategories");
 
@@ -263,11 +264,36 @@ var utoyaOrdListJSON = {
                         "cursor": "pointer" 
                     })
                 });
+                $("#terror").mouseenter(function(){
+                    SF.info(SITEFUNCTIONALITY.getList);
+                })
+                        
+                }
 
             }(); // ----- end setEvents
 
         } //---- end init: function
-   
+        
+     info: function (list) {
+         
+        //Tømmer sectionen
+        $("#infoSection").empty();
+     
+        for (i = 0; i < liste.length; i++) {
+          
+            if (wantedInfo === list[i].ord()) {
+                var $infoDiv = $("<div>");
+                $infoDiv
+                    .html("<div>" + "<h2>" + list[i].ord + "</h2><h3>" + list[i].uttalelse + "</h3>" + "<h3>" + list[i].ord_beskrivelse + "</h3>" + "<h3>" + list[i].beskrivelse + "</h3>"// "<img src=" + list[i].tweets_src + "></img>
+                          "s</div>")
+                    .attr("id", i)
+
+                $("#infoSection").append($infoDiv);
+            }
+        };
+
+
+    }
 
 }; //---- end SIDEFUNCTIONALITY
 
