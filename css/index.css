@@ -24,7 +24,6 @@ header {
     position: relative;
     left: 400px;
     top: 300px;
-    position: absolute;
     border-right: 1px solid white;
     padding-right: 10px;
 }
@@ -33,5 +32,13 @@ h2 {
     padding-right: 50px;
     margin-top: 0px;
     margin-bottom: 0px;
+    color: white;
+}
+#sideNote{
+    position: relative;
+    left: 1200px;
+    top: 300px;
+    width: 200px;
+    font-size: 13px;
     color: white;
 }
