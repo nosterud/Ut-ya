@@ -1,3 +1,5 @@
+var UTOYA_INFO_MODULE = (function(){
+
 var utoyaOrdListJSON = {
     "utoyaOrdList": [
         //Før gjerningsperson er funnet
@@ -221,17 +223,30 @@ var utoyaOrdListJSON = {
 
     ]
 };
+}());// end UTOYA_INFO_MODULE
 
-var SIDEFUNCTIONALITY = {
+    function getList(){
+        return utoyaOrdListJSON.utoyaOrdList;
+    }
 
+    return{
+        getList: getList
+};
+
+    var SITEFUNCTIONALITY = {
+
+    //Array
+    getList: [],
+    
     //HTML-objekter
     $terrorism: null,
     $mainCategories: null,
-    $h2: null,
 
     init: function () {
 
-            var SF = SIDEFUNCTIONALITY;
+        this.infoList = UTOYA_INFO_MODULE.getList();
+        
+            var SF = SITEFUNCTIONALITY;
 
             var setElements = function () {
 
@@ -242,21 +257,18 @@ var SIDEFUNCTIONALITY = {
 
             var setEvents = function () {
 
-                //$("#terror").click(function() {
-                  //  alert("alskjds");   
-                //});
-                
                 $(document).on("mouseenter", "#mainCategories", function () {
                     $(this)
                         .css({
-                        "cursor": "pointer"
+                        "cursor": "pointer" 
                     })
                 });
 
             }(); // ----- end setEvents
 
         } //---- end init: function
+   
 
 }; //---- end SIDEFUNCTIONALITY
 
-SIDEFUNCTIONALITY.init();
+SITEFUNCTIONALITY.init();
