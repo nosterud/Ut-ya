@@ -24,23 +24,34 @@ header {
     position: relative;
     left: 400px;
     top: 300px;
+    width: 10%;
+    float: left;
     border-right: 1px solid white;
     padding-right: 10px;
+    overflow: hidden;
 }
 
 h2 {
     padding-right: 50px;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-bottom: 0px;
     color: white;
+    
 }
 #sideNote{
+    
     position: relative;
-    left: 1200px;
     top: 300px;
+    float: right;
     width: 200px;
+    border-left: 1px solid white;
+    padding-left: 10px;
     font-size: 13px;
     color: white;
+    overflow: hidden;
+}
+#sideNoteTxt{
+    margin-top: 5px;   
 }
 
 
