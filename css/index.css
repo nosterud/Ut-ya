@@ -22,7 +22,7 @@ header {
 
 #mainCategories {
     position: relative;
-    left: 400px;
+    left: 20%;
     top: 300px;
     width: 10%;
     float: left;
@@ -42,6 +42,7 @@ h2 {
     
     position: relative;
     top: 300px;
+    right: 20%;
     float: right;
     width: 200px;
     border-left: 1px solid white;
