@@ -26,6 +26,9 @@ header {
 
 #mainCategories {
     position: relative;
+    left: 20%;
+    top: 300px;
+    width: 10%;
     float: left;
     border-right: 1px solid white;
     overflow: hidden;
@@ -35,11 +38,13 @@ header {
     
 }
 
+
 h2{
     margin-bottom: 0px;
     margin-top: 5px;
-}
 
+    
+}
 
 
 /*@media screen and (max-width: 1200px) {

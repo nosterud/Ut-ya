@@ -259,6 +259,8 @@ var utoyaOrdListJSON = {
 
             var setEvents = function () {
 
+                document.getElementById("terrorism").innerHTML = UTOYA_INFO_MODULE.getList().ord[1];
+                
                 $(document).on("mouseenter", "#mainCategories", function () {
                     $(this)
                         .css({
@@ -277,6 +279,8 @@ var utoyaOrdListJSON = {
             }(); // ----- end setEvents
 
         }, //---- end init: function
+        
+        
         
      info: function (list) {
          
