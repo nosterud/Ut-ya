@@ -241,6 +241,7 @@ var utoyaOrdListJSON = {
     //HTML-objekter
     $terrorism: null,
     $mainCategories: null,
+    $infoSection: null,    
 
     init: function () {
 
@@ -265,8 +266,10 @@ var utoyaOrdListJSON = {
                     })
                 });
                 
-                $("#terror").mouseenter(function(){
-                    SF.info(SITEFUNCTIONALITY.getList);
+                $("#terrorism").click(function(){
+                
+                    SF.info(SF.getList);
+                    
                 });
                         
                 
@@ -280,7 +283,7 @@ var utoyaOrdListJSON = {
         //Tømmer sectionen
         $("#infoSection").empty();
      
-        for (i = 0; i < liste.length; i++) {
+        for (i = 0; i < list.length; i++) {
           
             if (wantedInfo === list[i].ord()) {
                 var $infoDiv = $("<div>");

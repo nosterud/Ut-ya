@@ -1,58 +1,61 @@
 html, body {
-    width: 100%;
     background-color: rgb(25, 52, 65);
+}
+
+#container{
+    width:1024px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
     position: relative;
-    top: 50px;
-    width: 45%;
+    color: white;
+    font-size: 1.5em;
+    width:70%;
     margin-left: auto;
     margin-right: auto;
-    border-left: 1px solid white;
-    padding-left: 10px;
-    font-size: 25px;
-    font-family: serif;
-    color: white;
+    
+ 
 }
 
 #underline {
-    font-size: 25px;
+    font-size: 0.4em;
+    
 }
 
 #mainCategories {
     position: relative;
-    left: 400px;
-    top: 300px;
-    width: 10%;
     float: left;
     border-right: 1px solid white;
-    padding-right: 10px;
     overflow: hidden;
+    color: white;
+    padding: 10px;
+    margin-top: 100px;
+    
 }
 
-h2 {
-    padding-right: 50px;
-    margin-top: 5px;
+h2{
     margin-bottom: 0px;
-    color: white;
-    
+    margin-top: 5px;
 }
-#sideNote{
-    
-    position: relative;
-    top: 300px;
-    float: right;
-    width: 200px;
-    border-left: 1px solid white;
-    padding-left: 10px;
-    font-size: 13px;
-    color: white;
-    overflow: hidden;
-}
-#sideNoteTxt{
-    margin-top: 5px;   
-}
+
+
+
+/*@media screen and (max-width: 1200px) {
+	#container {
+		width: 100%;
+		margin: 0px auto;
+		padding: 15px;
+	}
+
+	#header, #sideNote {
+		height: auto;
+		width: 100%;
+		margin: 15px 0 0 0;
+	}
+
+}*/
 
 
 
