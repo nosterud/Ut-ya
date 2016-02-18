@@ -259,7 +259,11 @@ var utoyaOrdListJSON = {
 
             var setEvents = function () {
 
-                document.getElementById("terrorism").innerHTML = UTOYA_INFO_MODULE.getList()[0].ord;
+                $(document).ready(function () {
+                    SF.$mainCatCreate();
+                });
+                
+                
                 
                 $(document).on("mouseenter", "#mainCategories", function () {
                     $(this)
@@ -270,7 +274,8 @@ var utoyaOrdListJSON = {
                 
                 $("#terrorism").click(function(){
                 
-                    SF.info(SF.getList);
+                    alert("asda");
+                    //SF.info(SF.getList);
                     
                 });
                         
@@ -280,7 +285,12 @@ var utoyaOrdListJSON = {
 
         }, //---- end init: function
         
-        
+        mainCatCreate: function() {
+            
+            document.getElementById("terrorism").innerHTML = UTOYA_INFO_MODULE.getList()[0].ord;
+            
+            
+        },//---- end mainCatCreate function
         
      info: function (list) {
          
