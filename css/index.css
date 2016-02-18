@@ -3,7 +3,7 @@ html, body {
 }
 
 #container{
-    width:1024px;
+    width: 1024px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -12,6 +12,7 @@ header {
     position: relative;
     color: white;
     font-size: 1.5em;
+    border-left: 1px solid white;
     width:70%;
     margin-left: auto;
     margin-right: auto;
@@ -20,21 +21,22 @@ header {
 }
 
 #underline {
+    position: relative;
+    top: -20px;
     font-size: 0.4em;
     
 }
 
 #mainCategories {
     position: relative;
-    left: 20%;
-    top: 300px;
-    width: 10%;
+    width: 15%;
     float: left;
     border-right: 1px solid white;
     overflow: hidden;
     color: white;
     padding: 10px;
-    margin-top: 100px;
+    margin-top: 150px;
+
     
 }
 
@@ -46,6 +48,15 @@ h2{
     
 }
 
+#infoSection{
+    float: left;
+    height: 185px;
+    border-right: 1px solid white;
+    margin-top: 150px;
+    width: 70%;
+   
+  
+}
 
 /*@media screen and (max-width: 1200px) {
 	#container {
