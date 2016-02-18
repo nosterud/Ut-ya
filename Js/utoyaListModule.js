@@ -259,10 +259,17 @@ var utoyaOrdListJSON = {
 
             var setEvents = function () {
 
-                $(document).ready(function () {
-                    SF.$mainCatCreate();
-                });
+                //$(document).ready(function () {
+                  //  SF.$mainCatCreate();
+                //});
                 
+                //--- mainCategories "buttons"
+                document.getElementById("terrorism").innerHTML = UTOYA_INFO_MODULE.getList()[0].ord;
+                document.getElementById("attack").innerHTML = UTOYA_INFO_MODULE.getList()[1].ord;
+                document.getElementById("ekstremist").innerHTML = UTOYA_INFO_MODULE.getList()[2].ord;
+                document.getElementById("radical").innerHTML = UTOYA_INFO_MODULE.getList()[3].ord;
+                document.getElementById("terrorist").innerHTML = UTOYA_INFO_MODULE.getList()[4].ord;
+                document.getElementById("muslim").innerHTML = UTOYA_INFO_MODULE.getList()[5].ord;
                 
                 
                 $(document).on("mouseenter", "#mainCategories", function () {
@@ -274,7 +281,11 @@ var utoyaOrdListJSON = {
                 
                 $("#terrorism").click(function(){
                 
-                    alert("asda");
+                    document.getElementById("terrorism").innerHTML = UTOYA_INFO_MODULE.getList()[6].ord;
+                    
+                    document.getElementById("infoSection").innerHTML = UTOYA_INFO_MODULE.getList()[0].info;
+                    
+                    
                     //SF.info(SF.getList);
                     
                 });
@@ -287,7 +298,7 @@ var utoyaOrdListJSON = {
         
         mainCatCreate: function() {
             
-            document.getElementById("terrorism").innerHTML = UTOYA_INFO_MODULE.getList()[0].ord;
+            
             
             
         },//---- end mainCatCreate function
