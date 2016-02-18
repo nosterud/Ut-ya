@@ -131,7 +131,7 @@ var utoyaOrdListJSON = {
                     "3": ""
                 }
             ],
-            "beskrivelse": "Mediene er altså mer til­bøye­lige til å karak­te­ri­sere ter­ror­an­gre­pene som «tra­ge­dier» etter at de fant ut at en hvit nord­mann sto bak. Dette er talende, fordi begre­per som «kata­stro­fer», «tra­ge­dier» og «mare­ritt» gir bestemte kon­no­ta­sjo­ner. De er beteg­nel­ser på hen­del­ser som er for­fer­de­lige, men de anty­der sam­ti­dig at det ikke står noen skyl­dige aktø­rer bak. Ingen kan jo hol­des ansvar­lig for en natur­ka­ta­strofe. Ved å bruke disse beteg­nel­sene toner man altså ned at dette er hand­linger utført av en bevisst aktør."
+            "beskrivelse": "Mediene er altså mer tilbøyelige til å karakterisere terrorangrepene som «tragedier» etter at de fant ut at en hvit nordmann sto bak. Dette er talende, fordi begreper som «katastrofer», «tragedier» og «mareritt» gir bestemte konnotasjoner. De er betegnelser på hendelser som er forferdelige, men de antyder samtidig at det ikke står noen skyldige aktører bak. Ingen kan jo holdes ansvarlig for en naturkatastrofe. Ved å bruke disse betegnelsene toner man altså ned at dette er handlinger utført av en bevisst aktør."
         },
         {
             "ord": "KATASTROFE",
@@ -297,8 +297,6 @@ var utoyaOrdListJSON = {
         }, //---- end init: function
         
         mainCatCreate: function() {
-            
-            
             
             
         },//---- end mainCatCreate function
