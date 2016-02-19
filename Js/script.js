@@ -29,14 +29,16 @@
                 //});
                 
                 //--- mainCategories "buttons"
-                for (i = 0; i < 6; i++){
+                for (i = 0; i < 12; i++){
                     var $categories = $("<h2>");
                     $categories
                         .html(UTOYA_INFO_MODULE.getList()[i].ord)
-                    
-                    $("#mainCategories").append($categories);
-                    
+                    if(y < 6){
+                        $("#mainCategories").append($categories);
+                    };
                 };
+                
+                    
                 
                 $(document).on("mouseenter", "#mainCategories", function () {
                     $(this)
