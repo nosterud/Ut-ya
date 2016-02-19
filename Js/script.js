@@ -67,9 +67,8 @@
         
         
      info: function (list) {
-        $.each(list, function(i){
+      //  $.each(list, function(i){
             $.each(this, function(ord, uttalelse, ord_beskrivelse, bruk){
-             //  console.log(ord + uttalelse + ord_beskrivelse + bruk);
                 var $infoDiv = $("<div>");
               $infoDiv
                   .html("<div>" + "<h2>" + list[i].ord + "</h2><h3>" + list[i].uttalelse + "</h3><h3>" + list[i].ord_beskrivelse + "</h3><h3>" + list[i].beskrivelse + "</h3></div>")
@@ -77,7 +76,7 @@
 
               $("#infoSection").append($infoDiv);
             });
-        }); 
+      //  }); 
         
          
         //Tømmer sectionen
