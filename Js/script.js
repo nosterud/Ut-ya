@@ -1,23 +1,23 @@
     var SITEFUNCTIONALITY = {
 
-    //Array
-    getList: [],
-    
-    //HTML-objekter
-    $terrorism: null,
-    $mainCategories: null,
-    $infoSection: null,    
+        //Array
+        getList: [],
 
-    init: function () {
-    
+        //HTML-objekter
+        $terrorism: null,
+        $mainCategories: null,
+        $infoSection: null,
 
-        this.infoList = UTOYA_INFO_MODULE.getList();
-        
+        init: function () {
+
+
+            this.infoList = UTOYA_INFO_MODULE.getList();
+
             var SF = SITEFUNCTIONALITY;
 
             var setElements = function () {
-                
-                SF.$infoSection =$("#info")
+
+                SF.$infoSection = $("#info")
                 SF.$terrorism = $("#terror");
                 SF.$mainCategories = $("#mainCategories");
 
@@ -25,79 +25,61 @@
 
             var setEvents = function () {
 
-                //$(document).ready(function () {
-                  //  SF.$mainCatCreate();
-                //});
-                
                 //--- mainCategories "buttons"
-                for (i = 0; i < 6; i++){
+                for (i = 0; i < 6; i++) {
                     var $categories = $("<h2>");
                     $categories
                         .html(UTOYA_INFO_MODULE.getList()[i].ord)
-                    
-                        $("#mainCategories").append($categories);
-                    
+
+                    $("#mainCategories").append($categories);
+
                 };
-                
-                    
-                
+
+
+
                 $(document).on("mouseenter", "#mainCategories", function () {
                     $(this)
                         .css({
-                        "cursor": "pointer" 
-                    })
+                            "cursor": "pointer"
+                        })
                 });
-                
-                $("#terrorism").click(function(){
-                
-                    document.getElementById("terrorism").innerHTML = UTOYA_INFO_MODULE.getList()[6].ord;
-                    
-                    document.getElementById("infoSection").innerHTML = UTOYA_INFO_MODULE.getList()[0].info;
-                    
-                    
-                    //SF.info(SF.getList);
-                    
+
+                $("#terrorism").click(function () {
+
+
                 });
-                        
-                
+
+
 
             }(); // ----- end setEvents
 
         }, //---- end init: function
-        
-        
-     info: function (list) {
-        $.each(list, function(i){
-             //  console.log(ord + uttalelse + ord_beskrivelse + bruk);
+
+
+        info: function (list) {
+            $.each(list, function (i) {
                 var $infoDiv = $("<div>");
-              $infoDiv
-                  .html("<div>" + "<h2>" + list[i].ord + "</h2><h3>" + list[i].uttalelse + "</h3><h3>" + list[i].ord_beskrivelse + "</h3><h3>" + list[i].beskrivelse + "</h3></div>")
-                .attr("id", i)
+                $infoDiv
+                    .html("<div>" + "<h2>" + list[i].ord + "</h2><h3>" + list[i].uttalelse + "</h3><h3>" + list[i].ord_beskrivelse + "</h3><h3>" + list[i].beskrivelse + "</h3></div>")
+                    .attr("id", i)
 
-              $("#infoSection").append($infoDiv);
+                $("#infoSection").append($infoDiv);
             });
-        
-        
-         
-        //Tømmer sectionen
-       // $("#infoSection").empty();
-     
-      //  for (i = 0; i < list.length; i++) {
-          
-          
-       //     }// end if statement
-     //   };// end for løkke
 
 
-    },//end Info function
 
-    mainCatCreat: function(infoList) {
-            
-        
-        
-    }
-        
-}; //---- end SIDEFUNCTIONALITY
+            //Tømmer sectionen
+            // $("#infoSection").empty();
 
-SITEFUNCTIONALITY.init();
-SITEFUNCTIONALITY.info(UTOYA_INFO_MODULE.getList());
+        }, //end Info function
+
+        mainCatCreat: function (infoList) {
+
+
+
+        }
+
+    }; //---- end SIDEFUNCTIONALITY
+
+    SITEFUNCTIONALITY.init();
+    SITEFUNCTIONALITY.info(UTOYA_INFO_MODULE.getList());
