@@ -43,11 +43,15 @@
                             "cursor": "pointer"
                         })
                 });
-
-                $("#terrorism").click(function () {
-
-
+                
+                $(document).on("mouseenter", ".terrorism", function() {
+                   alert("kldf"); 
                 });
+
+               // $("#terrorism").click(function () {
+                    
+
+               // });
 
 
 
