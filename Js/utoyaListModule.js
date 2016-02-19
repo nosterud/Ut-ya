@@ -264,6 +264,10 @@ var utoyaOrdListJSON = {
                 //});
                 
                 //--- mainCategories "buttons"
+                $("#terrorism").innerHTML() {
+                    
+                }
+                
                 document.getElementById("terrorism").innerHTML = UTOYA_INFO_MODULE.getList()[0].ord;
                 document.getElementById("attack").innerHTML = UTOYA_INFO_MODULE.getList()[1].ord;
                 document.getElementById("ekstremist").innerHTML = UTOYA_INFO_MODULE.getList()[2].ord;
