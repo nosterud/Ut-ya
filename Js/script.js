@@ -29,11 +29,11 @@
                 //});
                 
                 //--- mainCategories "buttons"
-                $("#terrorism").innerHTML() {
+                $("#terrorism").html = UTOYA_INFO_MODULE.getList()[0].ord; 
                     
-                }
                 
-                document.getElementById("terrorism").innerHTML = UTOYA_INFO_MODULE.getList()[0].ord;
+                
+                //document.getElementById("terrorism").innerHTML = UTOYA_INFO_MODULE.getList()[0].ord;
                 document.getElementById("attack").innerHTML = UTOYA_INFO_MODULE.getList()[1].ord;
                 document.getElementById("ekstremist").innerHTML = UTOYA_INFO_MODULE.getList()[2].ord;
                 document.getElementById("radical").innerHTML = UTOYA_INFO_MODULE.getList()[3].ord;
