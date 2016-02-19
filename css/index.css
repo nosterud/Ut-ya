@@ -34,7 +34,7 @@ header {
     border-right: 1px solid white;
     overflow: hidden;
     color: white;
-    padding: 10px;
+    padding: 16px;
     margin-top: 150px;
 
     
@@ -50,12 +50,10 @@ h2{
 
 #infoSection{
     float: left;
-    height: 185px;
+    height: 220px;
     border-right: 1px solid white;
     margin-top: 150px;
     width: 70%;
-   
-  
 }
 
 /*@media screen and (max-width: 1200px) {
