@@ -48,7 +48,7 @@
                 
                 $(document).on("mouseenter", ".terrorism", function() {
                  //  $("#infoSection").append($infoDiv); 
-                    SF.info(SF.infoList);
+                    SF.info(SF.infoList)
                 });
                 
                  $(document).on("mouseleave", ".terrorism", function() {
