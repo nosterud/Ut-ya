@@ -10,7 +10,6 @@
 
         init: function () {
 
-
             this.infoList = UTOYA_INFO_MODULE.getList();
 
             var SF = SITEFUNCTIONALITY;
@@ -24,18 +23,21 @@
             }(); //--- end setElements
 
             var setEvents = function () {
-
+                var count = 0;
                 //--- mainCategories "buttons"
-                for (i = 0; i < 6; i++) {
-                    var $categories = $("<h2>");
-                    $categories
-                        .html(UTOYA_INFO_MODULE.getList()[i].ord)
 
+                //Lager alle 12 hovedkategoriene
+                for (i = 0; i < 12; i++) {
+                    //Printer ut bare de 6 første
+                    if (count < 6) {
+                        count++;
+                        var $categories = $("<h2>");
+                        $categories
+                            .html(UTOYA_INFO_MODULE.getList()[i].ord)
+                            .addClass(UTOYA_INFO_MODULE.getList()[i].id)
+                    };
                     $("#mainCategories").append($categories);
-
                 };
-
-
 
                 $(document).on("mouseenter", "#mainCategories", function () {
                     $(this)
@@ -48,8 +50,12 @@
                    alert("kldf"); 
                 });
 
+
                // $("#terrorism").click(function () {
-                    
+
+                $(".terrorism").click(function () {
+                    alert("klasjld");
+
 
                // });
 
@@ -86,4 +92,4 @@
     }; //---- end SIDEFUNCTIONALITY
 
     SITEFUNCTIONALITY.init();
-    SITEFUNCTIONALITY.info(UTOYA_INFO_MODULE.getList());
+    //SITEFUNCTIONALITY.info(UTOYA_INFO_MODULE.getList());
