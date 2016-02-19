@@ -58,8 +58,8 @@
 
 
                 $(".terrorism").click(function () {
-                    alert("klasjld");
-
+                    $(this)
+                        .html(UTOYA_INFO_MODULE.getList()[6].ord)
 
                 });
 
