@@ -30,13 +30,13 @@
                 //});
                 
                 //--- mainCategories "buttons"
-                for (i = 0; i < 12; i++){
+                for (i = 0; i < 6; i++){
                     var $categories = $("<h2>");
                     $categories
                         .html(UTOYA_INFO_MODULE.getList()[i].ord)
-                    if(y < 6){
+                    
                         $("#mainCategories").append($categories);
-                    };
+                    
                 };
                 
                     
