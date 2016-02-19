@@ -67,9 +67,6 @@
         
         
      info: function (list) {
-      //  $.each(list, function(i){
-            $.each(this, function(ord, uttalelse, ord_beskrivelse, bruk){
-
         $.each(list, function(i){
              //  console.log(ord + uttalelse + ord_beskrivelse + bruk);
                 var $infoDiv = $("<div>");
@@ -79,8 +76,7 @@
 
               $("#infoSection").append($infoDiv);
             });
-      //  }); 
-        }); 
+        
         
          
         //Tømmer sectionen
