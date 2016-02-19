@@ -68,7 +68,6 @@
         
      info: function (list) {
         $.each(list, function(i){
-            $.each(this, function(ord, uttalelse, ord_beskrivelse, bruk){
              //  console.log(ord + uttalelse + ord_beskrivelse + bruk);
                 var $infoDiv = $("<div>");
               $infoDiv
@@ -76,7 +75,6 @@
                 .attr("id", i)
 
               $("#infoSection").append($infoDiv);
-            });
         }); 
         
          
