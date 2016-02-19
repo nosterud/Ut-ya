@@ -47,17 +47,21 @@
                 });
                 
                 $(document).on("mouseenter", ".terrorism", function() {
-                   alert("kldf"); 
+                 //  $("#infoSection").append($infoDiv); 
+                    SF.info(SF.infoList);
+                });
+                
+                 $(document).on("mouseleave", ".terrorism", function() {
+                     //Tømmer section
+                     $("#infoSection").empty();
                 });
 
-
-               // $("#terrorism").click(function () {
 
                 $(".terrorism").click(function () {
                     alert("klasjld");
 
 
-               // });
+                });
 
 
 
@@ -68,18 +72,15 @@
 
         info: function (list) {
             $.each(list, function (i) {
+                console.log(i);
                 var $infoDiv = $("<div>");
                 $infoDiv
                     .html("<div>" + "<h2>" + list[i].ord + "</h2><h3>" + list[i].uttalelse + "</h3><h3>" + list[i].ord_beskrivelse + "</h3><h3>" + list[i].bruk1 + "</h3><h3>" + list[i].bruk2 + "</h3><h3>" + list[i].bruk3 + "</h3><h3>" + list[i].beskrivelse + "</h3></div>")
-                    .attr("id", i)
+                    //.attr("id", i)
 
                 $("#infoSection").append($infoDiv);
             });
 
-
-
-            //Tømmer sectionen
-            // $("#infoSection").empty();
 
         }, //end Info function
 
