@@ -9,6 +9,7 @@
     $infoSection: null,    
 
     init: function () {
+    
 
         this.infoList = UTOYA_INFO_MODULE.getList();
         
@@ -67,24 +68,25 @@
         
         
      info: function (list) {
-        $.each(fields['ord', 'uttalelse', 'ord_beskrivelse', 'bruk'], function(index, value) {
-$.each(value, function(index, innervalue) {
-alert(innervalue['Value'])
-});
-});
+        $.each(list, function(i){
+            $.each(this, function(ord, uttalelse, ord_beskrivelse, bruk){
+             //  console.log(ord + uttalelse + ord_beskrivelse + bruk);
+                var $infoDiv = $("<div>");
+              $infoDiv
+                  .html("<div>" + "<h2>" + list[i].ord + "</h2><h3>" + list[i].uttalelse + "</h3><h3>" + list[i].ord_beskrivelse + "</h3><h3>" + list[i].beskrivelse + "</h3></div>")
+                .attr("id", i)
+
+              $("#infoSection").append($infoDiv);
+            });
+        }); 
+        
          
         //Tømmer sectionen
        // $("#infoSection").empty();
      
       //  for (i = 0; i < list.length; i++) {
           
-       //     if (wantedInfo === list[i].ord()) {
-         //       var $infoDiv = $("<div>");
-        //        $infoDiv
-         //           .html("<div>" + "<h2>" + list[i].ord + "</h2><h3>" + list[i].uttalelse + "</h3><h3>" + list[i].ord_beskrivelse + "</h3><h3>" + list[i].beskrivelse + "</h3></div>")
-         //           .attr("id", i)
-
-        //        $("#infoSection").append($infoDiv);
+          
        //     }// end if statement
      //   };// end for løkke
 
@@ -94,3 +96,4 @@ alert(innervalue['Value'])
 }; //---- end SIDEFUNCTIONALITY
 
 SITEFUNCTIONALITY.init();
+SITEFUNCTIONALITY.info(UTOYA_INFO_MODULE.getList());
