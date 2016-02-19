@@ -65,27 +65,28 @@
 
         }, //---- end init: function
         
-        mainCatCreate: function() {
-            
-            
-        },//---- end mainCatCreate function
         
      info: function (list) {
+        $.each(fields['ord', 'uttalelse', 'ord_beskrivelse', 'bruk'], function(index, value) {
+$.each(value, function(index, innervalue) {
+alert(innervalue['Value'])
+});
+});
          
         //Tømmer sectionen
-        $("#infoSection").empty();
+       // $("#infoSection").empty();
      
-        for (i = 0; i < list.length; i++) {
+      //  for (i = 0; i < list.length; i++) {
           
-            if (wantedInfo === list[i].ord()) {
-                var $infoDiv = $("<div>");
-                $infoDiv
-                    .html("<div>" + "<h2>" + list[i].ord + "</h2><h3>" + list[i].uttalelse + "</h3><h3>" + list[i].ord_beskrivelse + "</h3><h3>" + list[i].beskrivelse + "</h3></div>")
-                    .attr("id", i)
+       //     if (wantedInfo === list[i].ord()) {
+         //       var $infoDiv = $("<div>");
+        //        $infoDiv
+         //           .html("<div>" + "<h2>" + list[i].ord + "</h2><h3>" + list[i].uttalelse + "</h3><h3>" + list[i].ord_beskrivelse + "</h3><h3>" + list[i].beskrivelse + "</h3></div>")
+         //           .attr("id", i)
 
-                $("#infoSection").append($infoDiv);
-            }// end if statement
-        };// end for løkke
+        //        $("#infoSection").append($infoDiv);
+       //     }// end if statement
+     //   };// end for løkke
 
 
     }//end Info function
