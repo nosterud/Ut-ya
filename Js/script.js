@@ -58,15 +58,9 @@
 
         info: function (list) {
             $.each(list, function (i) {
-                var brukListe = '<ul class="brukListe">';
-                $.each(list[i].bruk, function(objectBruk){
-                    var li = '<li>' + objectBruk + '</li>';
-                    brukListe += li;
-                })
-                brukListe += '</ul>';
                 var $infoDiv = $("<div>");
                 $infoDiv
-                    .html("<div>" + "<h2>" + list[i].ord + "</h2><h3>" + list[i].uttalelse + "</h3><h3>" + list[i].ord_beskrivelse + "</h3><h3>" + brukListe + "</h3><h3>" + list[i].beskrivelse + "</h3></div>")
+                    .html("<div>" + "<h2>" + list[i].ord + "</h2><h3>" + list[i].uttalelse + "</h3><h3>" + list[i].ord_beskrivelse + "</h3><h3>" + list[i].bruk + "</h3><h3>" + list[i].beskrivelse + "</h3></div>")
                     .attr("id", i)
 
                 $("#infoSection").append($infoDiv);
