@@ -49,17 +49,6 @@ var UTOYA_INFO_MODULE = (function () {
                 "uttalelse": "[əkstɾəˈmist]",
                 "ord_beskrivelse": "Substantiv maskulin",
                 "tweets_src": "../bilder/ekstremistTweet.png",
-                "bruk": [
-                    {
-                        "1": ""
-                },
-                    {
-                        "2": ""
-                },
-                    {
-                        "3": ""
-                }
-            ],
                 "beskrivelse": "Ekstremisme og ekstrem kommer fra det latinske extremus. Uttrykket kan oversettes med «det ytterste» eller «det fjerneste», eller også «det verste». Det et uttrykk som brukes om ytterliggående holdninger. I dagligtale er bruken av ekstremisme eller prefikset ekstrem- gjerne tilfeldig og usystematisk. Det som oppfattes som «ekstremt» i noen sammenhenger, kan ansees for å være helt normalt i en annen. «Ekstremisme» kan dermed sies å være en mer systematisk gjennomtenkt posisjon, teori eller ideologi hvor ekstreme posisjoner, standpunkter etc. er vesentlige."
         },
             {
@@ -68,17 +57,6 @@ var UTOYA_INFO_MODULE = (function () {
                 "uttalelse": "[radıˈkɑːl]",
                 "ord_beskrivelse": "Adjektiv",
                 "tweets_src": "../bilder/radikalTweet.png",
-                "bruk": [
-                    {
-                        "1": ""
-                },
-                    {
-                        "2": ""
-                },
-                    {
-                        "3": ""
-                }
-            ],
                 "beskrivelse": "En som er radikal, tenderer mot å være revolusjonær. Motsetningen til radikal er dermed konservativ, det å gå inn for en stykkevis og forsiktig endring, basert på det bestående.",
                 "ekstraTekst": "Uttrykket radikalisme brukes imidlertid ofte på en nokså utvannet måte, nemlig om en oppfatning som innebærer raskere gradvis endring enn konservative oppfatninger gjør. Personer og grupper som kaller seg radikale er også ofte betinget radikale, eller, potensielt konservative; de kan ønske en grunnleggende endring av eksisterende forhold, men insistere på at den nye ordenen skal komme for å bli. Både kommunister og fascister kan slik sett sees på som betinget radikale."
         },
@@ -88,17 +66,6 @@ var UTOYA_INFO_MODULE = (function () {
                 "uttalelse": "[[tæɾu'ɾist]",
                 "ord_beskrivelse": "Substantiv maskulin",
                 "tweets_src": "../bilder/terroristtweet.png",
-                "bruk": [
-                    {
-                        "1": ""
-                },
-                    {
-                        "2": ""
-                },
-                    {
-                        "3": ""
-                }
-            ],
                 "beskrivelse": "Person som bruker terror eller terrorisme som et politisk våpen. Bruken av etiketten &quot;terrorist&quot; er ofte kontroversiell eller subjektiv , ettersom en persons terrorisme kan være en annens &quot; frihetskjemper&quot;, og vice versa, avhengig av noens personlige ideologi og tro. En kynisk definisjon kan være at en terrorist er noen som myrder eller terroriserer flere av dem terroristen kjemper for, enn sine antatte fiender."
         },
             {
@@ -107,17 +74,6 @@ var UTOYA_INFO_MODULE = (function () {
                 "uttalelse": "[mʉ'sliːm]",
                 "ord_beskrivelse": "Substantiv maskulin",
                 "tweets_src": "../bilder/muslimTweet.png",
-                "bruk": [
-                    {
-                        "1": ""
-                },
-                    {
-                        "2": ""
-                },
-                    {
-                        "3": ""
-                }
-            ],
                 "beskrivelse": "Muslimer tror Gud, Allah på arabisk, gjennom engelen Gabriel åpenbarte den hellige Koranen for Muhammed, og at Muhammed<br/>er Allahs siste profet. Koranen og (for de fleste muslimer) profetens eksempel (Sunnah), danner grunnlaget for islam.",
                 "ekstraTekst": "I dag er islam den nest største religionen i verden med mellom 1,3 og 1,7 milliarder tilhengere, og i Norge med ca. 2 % av befolkningen"
         },
@@ -133,9 +89,6 @@ var UTOYA_INFO_MODULE = (function () {
                 },
                     {
                         "2": "2. Svært trist hendelse, ulykke."
-                },
-                    {
-                        "3": ""
                 }
             ],
                 "beskrivelse": "Mediene er altså mer tilbøyelige til å karakterisere terrorangrepene som «tragedier» etter at de fant ut at en hvit nordmann sto bak. Dette er talende, fordi begreper som «katastrofer», «tragedier» og «mareritt» gir bestemte konnotasjoner. De er betegnelser på hendelser som er forferdelige, men de antyder samtidig at det ikke står noen skyldige aktører bak. Ingen kan jo holdes ansvarlig for en naturkatastrofe. Ved å bruke disse betegnelsene toner man altså ned at dette er handlinger utført av en bevisst aktør."
@@ -150,9 +103,6 @@ var UTOYA_INFO_MODULE = (function () {
                 },
                     {
                         "2": "2. Overført med svekket betydning svært dårlig"
-                },
-                    {
-                        "3": ""
                 }
             ],
                 "beskrivelse": "Katastrofe brukes om en plutselig, ulykkelig omveltning i et menneskes liv; voldsom, ødeleggende naturbegivenhet.",
@@ -174,7 +124,7 @@ var UTOYA_INFO_MODULE = (function () {
                         "3": "3. Grusom, brutal, dyrisk"
                 }
             ],
-                "beskrivelse": "Vi ser at hand­lin­gene i perio­den etter at identitenen av gjerningsmannen offentliggjøres karak­te­ri­se­res som «avskye­lige», «umen­nes­ke­lige» og «van­vit­tige», eller rett og slett som «gal­skap» – men kun etter at gjer­nings­man­nens nasjo­na­li­tet ble offent­lig­gjort. Spe­si­elt bru­ken av ordene «van­vit­tige hand­lin­ger» og «gal­skap» er talende. De anty­der at den som har gjort dette ikke egent­lig er til­reg­ne­lig."
+                "beskrivelse": "Vi ser at handlingene i perioden etter at identitenen av gjerningsmannen offentliggjøres karakteriseres som «avskyelige», «umenneskelige» og «vanvittige», eller rett og slett som «galskap» – men kun etter at gjerningsmannens nasjonalitet ble offentliggjort. Spesielt bruken av ordene «vanvittige handlinger» og «galskap» er talende. De antyder at den som har gjort dette ikke egentlig er tilregnelig."
         },
             {
                 "id": "crazy",
@@ -193,7 +143,7 @@ var UTOYA_INFO_MODULE = (function () {
                 }
             ],
                 "beskrivelse": "Galskap er det å være gal, det vil si det å ikke være tilregnelig, men å oppføre seg tåpelig og meningsløst. Synonymer til galskap kan være vanvidd, mani, demens, psykose, narrestreker og dårskap.",
-                "ekstraTekst": "Hand­lin­gene i perio­den etter at gjerningsmannens identitet offentliggjøres karak­te­ri­se­res blant annet som «gal­skap» – men kun etter at gjer­nings­man­nens nasjo­na­li­tet ble offent­lig­gjort. Spe­si­elt bru­ken av ordene «van­vit­tige hand­lin­ger» og «gal­skap» er talende. De anty­der at den som har gjort dette ikke egent­lig er til­reg­ne­lig."
+                "ekstraTekst": "Handlingene i perioden etter at gjerningsmannens identitet offentliggjøres karakteriseres blant annet som «galskap» – men kun etter at gjerningsmannens nasjonalitet ble offentliggjort. Spesielt bruken av ordene «vanvittige handlinger» og «galskap» er talende. De antyder at den som har gjort dette ikke egentlig er tilregnelig."
         },
             {
                 "id": "killer",
@@ -203,15 +153,9 @@ var UTOYA_INFO_MODULE = (function () {
                 "bruk": [
                     {
                         "1": "Drapsmann m. person som har begått et drap."
-                },
-                    {
-                        "2": ""
-                },
-                    {
-                        "3": ""
                 }
             ],
-                "beskrivelse": "Etter gjerningsmannens offentliggjøring blir en annen for­tolk­nings­ramme akti­vert. Hen­del­sen omta­les fort­satt som gru­som, gjer­nings­man­nen karak­te­ri­se­res som draps­mann og mor­der – men altså ikke som ter­ro­rist, slik man gjorde tid­li­gere på dagen. Beteg­nel­sen «draps­mann» er selv­føl­ge­lig svært nega­tivt ladet, men det er mer knyt­tet til «almin­ne­lig» kri­mi­na­li­tet enn ter­ror. Det kan med andre ord virke som om mediene går fra å tolke hen­del­sene inn i en ter­ror­ramme til å tolke dem i en kriminalitetsramme."
+                "beskrivelse": "Etter gjerningsmannens offentliggjøring blir en annen fortolkningsramme aktivert. Hendelsen omtales fortsatt som grusom, gjerningsmannen karakteriseres som drapsmann og morder – men altså ikke som terrorist, slik man gjorde tidligere på dagen. Betegnelsen «drapsmann» er selvfølgelig svært negativt ladet, men det er mer knyttet til «alminnelig» kriminalitet enn terror. Det kan med andre ord virke som om mediene går fra å tolke hendelsene inn i en terrorramme til å tolke dem i en kriminalitetsramme."
         },
             {
                 "id": "christian",
@@ -221,12 +165,6 @@ var UTOYA_INFO_MODULE = (function () {
                 "bruk": [
                     {
                         "1": "Betegnelse på en person som bekjenner seg til Kristendommer og Kristus, dvs. som tilhører den kristne religion."
-                },
-                    {
-                        "2": ""
-                },
-                    {
-                        "3": ""
                 }
             ],
                 "beskrivelse": "Sett i kristendommens perspektiv er Jesus langt mer enn en profet. Han er frelser, med andre ord en som gjennom en bestemt handling (sin død på korset) har sikret menneskene – forutsatt at de tror han er Messias – det største av alle goder, nemlig det evige liv som gikk tapt gjennom Adams ulydighet."
