@@ -29,17 +29,14 @@
                 //});
                 
                 //--- mainCategories "buttons"
-                $("#terrorism").html = UTOYA_INFO_MODULE.getList()[0].ord; 
+                for (i = 0; i < 6; i++){
+                    var $categories = $("<h2>");
+                    $categories
+                        .html(UTOYA_INFO_MODULE.getList()[i].ord)
                     
-                
-                
-                //document.getElementById("terrorism").innerHTML = UTOYA_INFO_MODULE.getList()[0].ord;
-                document.getElementById("attack").innerHTML = UTOYA_INFO_MODULE.getList()[1].ord;
-                document.getElementById("ekstremist").innerHTML = UTOYA_INFO_MODULE.getList()[2].ord;
-                document.getElementById("radical").innerHTML = UTOYA_INFO_MODULE.getList()[3].ord;
-                document.getElementById("terrorist").innerHTML = UTOYA_INFO_MODULE.getList()[4].ord;
-                document.getElementById("muslim").innerHTML = UTOYA_INFO_MODULE.getList()[5].ord;
-                
+                    $("#mainCategories").append($categories);
+                    
+                };
                 
                 $(document).on("mouseenter", "#mainCategories", function () {
                     $(this)
@@ -89,8 +86,14 @@ alert(innervalue['Value'])
      //   };// end for løkke
 
 
-    }//end Info function
+    },//end Info function
 
+    mainCatCreat: function(infoList) {
+            
+        
+        
+    }
+        
 }; //---- end SIDEFUNCTIONALITY
 
 SITEFUNCTIONALITY.init();
