@@ -187,6 +187,14 @@
         }, //---- end init: function
 
 
+<<<<<<< HEAD
+        info: function (list, listArray) {
+            $.each(list, function (i) {
+                
+                var listArray = [11];
+                
+                console.log(i);
+=======
         info: function (list, category) {
             
             //var wantedInfo = $(".terrorism");
@@ -198,16 +206,23 @@
              if(list[i].ord.toUpperCase().trim() == category.toUpperCase().trim()){
                  
                 
+>>>>>>> origin/master
                 var $infoDiv = $("<div>");
                 $infoDiv
                     .html("<div>" + "<h2>" + list[i].ord + "</h2><h3>" + list[i].uttalelse + "</h3><h3>" + list[i].ord_beskrivelse + "</h3><h3>" + list[i].bruk1 + "</h3><h3>" + list[i].bruk2 + "</h3><h3>" + list[i].bruk3 + "</h3><h3>" + list[i].beskrivelse + "</h3><img src=" + list[i].tweets_src + "></img></div>")
                     //.attr("id", i)
-
+                    
                 $("#infoSection").append($infoDiv);
                 
+<<<<<<< HEAD
+                listArray.push($infoDiv);
+                
+                return listArray;
+=======
                 
                 }
                 
+>>>>>>> origin/master
             });
 
 
