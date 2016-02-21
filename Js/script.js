@@ -70,15 +70,22 @@
         }, //---- end init: function
 
 
-        info: function (list) {
+        info: function (list, listArray) {
             $.each(list, function (i) {
+                
+                var listArray = [11];
+                
                 console.log(i);
                 var $infoDiv = $("<div>");
                 $infoDiv
                     .html("<div>" + "<h2>" + list[i].ord + "</h2><h3>" + list[i].uttalelse + "</h3><h3>" + list[i].ord_beskrivelse + "</h3><h3>" + list[i].bruk1 + "</h3><h3>" + list[i].bruk2 + "</h3><h3>" + list[i].bruk3 + "</h3><h3>" + list[i].beskrivelse + "</h3></div>")
                     //.attr("id", i)
-
+                    
                 $("#infoSection").append($infoDiv);
+                
+                listArray.push($infoDiv);
+                
+                return listArray;
             });
 
 
