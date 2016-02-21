@@ -166,8 +166,16 @@
 
                 });
             
+                $("#sideNote").on("mouseenter", function(){
+                   $(this)
+                        .animate({"opacity": "1"})
+                });
                 
-                
+            
+                 $("#sideNote").on("mouseleave", function(){
+                   $(this)
+                        .animate({"opacity": "0.2"})
+                });
                 
                 
                 
@@ -192,7 +200,7 @@
                 
                 var $infoDiv = $("<div>");
                 $infoDiv
-                    .html("<div>" + "<h2>" + list[i].ord + "</h2><h3>" + list[i].uttalelse + "</h3><h3>" + list[i].ord_beskrivelse + "</h3><h3>" + list[i].bruk1 + "</h3><h3>" + list[i].bruk2 + "</h3><h3>" + list[i].bruk3 + "</h3><h3>" + list[i].beskrivelse + "</h3></div>")
+                    .html("<div>" + "<h2>" + list[i].ord + "</h2><h3>" + list[i].uttalelse + "</h3><h3>" + list[i].ord_beskrivelse + "</h3><h3>" + list[i].bruk1 + "</h3><h3>" + list[i].bruk2 + "</h3><h3>" + list[i].bruk3 + "</h3><h3>" + list[i].beskrivelse + "</h3><img src=" + list[i].tweets_src + "></img></div>")
                     //.attr("id", i)
 
                 $("#infoSection").append($infoDiv);

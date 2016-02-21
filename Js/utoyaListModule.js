@@ -8,7 +8,7 @@ var UTOYA_INFO_MODULE = (function () {
                 "ord": "TERRORISME",
                 "uttalelse": "[tæru'rismə]",
                 "ord_beskrivelse": "Substantiv maskulin entall/singular.",
-                "tweets_src": "../bilder/utoyatweetSorg.png",
+                "tweets_src": "bilder/utoyatweetSorg.png",
                 "bruk1": "1. Bruk av vold og trusler for å true eller tvinge, spesielt for                          politiske formål.",
                 "bruk2": "2. Tilstand av frykt og underkastelse&nbsp; produsert av                                  terrorisme eller terrorisering.",
                 "bruk3": "3. En terroristisk metode for å styre eller motstå en                                     regjering.",
@@ -20,7 +20,7 @@ var UTOYA_INFO_MODULE = (function () {
                 "ord": "ANGREP",
                 "uttalelse": "['angre:p]",
                 "ord_beskrivelse": "Substantiv nøytrum.",
-                "tweets_src": "../bilder/terroristtweet.png",
+                "tweets_src": "bilder/terroristtweet.png",
                 "bruk1": "1. Voldelig overfall.",
                 "bruk2": "2. Militær invasjon.",
                 "bruk3": "3. Overført det å komme med sterk kritikk.",
@@ -32,7 +32,7 @@ var UTOYA_INFO_MODULE = (function () {
                 "ord": "EKSTREMIST",
                 "uttalelse": "[əkstɾəˈmist]",
                 "ord_beskrivelse": "Substantiv maskulin",
-                "tweets_src": "../bilder/ekstremistTweet.png",
+                "tweets_src": "bilder/ekstremistTweet.png",
                 "bruk1": "",
                 "bruk2": "",
                 "bruk3": "",
@@ -43,7 +43,7 @@ var UTOYA_INFO_MODULE = (function () {
                 "ord": "RADIKAL",
                 "uttalelse": "[radıˈkɑːl]",
                 "ord_beskrivelse": "Adjektiv",
-                "tweets_src": "../bilder/radikalTweet.png",
+                "tweets_src": "bilder/radikalTweet.png",
                 "bruk1": "",
                 "bruk2": "",
                 "bruk3": "",
@@ -55,7 +55,7 @@ var UTOYA_INFO_MODULE = (function () {
                 "ord": "TERRORIST",
                 "uttalelse": "[[tæɾu'ɾist]",
                 "ord_beskrivelse": "Substantiv maskulin",
-                "tweets_src": "../bilder/terroristtweet.png",
+                "tweets_src": "bilder/terroristtweet.png",
                 "bruk1": "",
                 "bruk2": "",
                 "bruk3": "",
@@ -66,7 +66,7 @@ var UTOYA_INFO_MODULE = (function () {
                 "ord": "MUSLIM",
                 "uttalelse": "[mʉ'sliːm]",
                 "ord_beskrivelse": "Substantiv maskulin",
-                "tweets_src": "../bilder/muslimTweet.png",
+                "tweets_src": "bilder/muslimTweet.png",
                 "bruk1": "",
                 "bruk2": "",
                 "bruk3": "",
@@ -82,6 +82,7 @@ var UTOYA_INFO_MODULE = (function () {
                 "bruk1": "1. Teater dramaform med tragisk handling, mots. komedie",
                 "bruk2": "2. Svært trist hendelse, ulykke.",
                 "bruk3": "",
+                "tweets_src": "bilder/utoyatweetSorg.png",
                 "beskrivelse": "Mediene er altså mer tilbøyelige til å karakterisere terrorangrepene som «tragedier» etter at de fant ut at en hvit nordmann sto bak. Dette er talende, fordi begreper som «katastrofer», «tragedier» og «mareritt» gir bestemte konnotasjoner. De er betegnelser på hendelser som er forferdelige, men de antyder samtidig at det ikke står noen skyldige aktører bak. Ingen kan jo holdes ansvarlig for en naturkatastrofe. Ved å bruke disse betegnelsene toner man altså ned at dette er handlinger utført av en bevisst aktør."
         },
             {
@@ -91,6 +92,7 @@ var UTOYA_INFO_MODULE = (function () {
                 "bruk1": "1. Omfattende og svært alvorlig ulykke.",
                 "bruk2": "2. Overført med svekket betydning svært dårlig.",
                 "bruk3": "",
+                "tweets_src": "bilder/terroristtweet.png",
                 "beskrivelse": "Katastrofe brukes om en plutselig, ulykkelig omveltning i et menneskes liv; voldsom, ødeleggende naturbegivenhet.",
                 "ekstraTekst": "Begreper som «katastrofer», «tragedier» og «mareritt» gir bestemte konnotasjoner. De er betegnelser på hendelser som er forferdelige, men antyder samtidig at det ikke står noen skyldige aktører bak. Ingen kan jo holdes ansvarlig for en naturkatastrofe."
         },
@@ -102,6 +104,7 @@ var UTOYA_INFO_MODULE = (function () {
                 "bruk1": ".1. Som er unormal for mennesker.",
                 "bruk2": "2. Som er uegnet for mennesker, nedverdigende.",
                 "bruk3": "3. Grusom, brutal, dyrisk",
+                "tweets_src": "bilder/ekstremistTweet.png",
                 "beskrivelse": "Vi ser at handlingene i perioden etter at identitenen av gjerningsmannen offentliggjøres karakteriseres som «avskyelige», «umenneskelige» og «vanvittige», eller rett og slett som «galskap» – men kun etter at gjerningsmannens nasjonalitet ble offentliggjort. Spesielt bruken av ordene «vanvittige handlinger» og «galskap» er talende. De antyder at den som har gjort dette ikke egentlig er tilregnelig."
         },
             {
@@ -112,6 +115,7 @@ var UTOYA_INFO_MODULE = (function () {
                 "bruk1": "1. Vanvidd, stormannsg- / det er den rene g- / dette er g-",
                 "bruk2": "2. Villhet, yrhet, fartsg-",
                 "bruk3": "3. Fanteri, gale streker, gjøre mye g-",
+                "tweets_src": "bilder/radikalTweet.png",
                 "beskrivelse": "Galskap er det å være gal, det vil si det å ikke være tilregnelig, men å oppføre seg tåpelig og meningsløst. Synonymer til galskap kan være vanvidd, mani, demens, psykose, narrestreker og dårskap.",
                 "ekstraTekst": "Handlingene i perioden etter at gjerningsmannens identitet offentliggjøres karakteriseres blant annet som «galskap» – men kun etter at gjerningsmannens nasjonalitet ble offentliggjort. Spesielt bruken av ordene «vanvittige handlinger» og «galskap» er talende. De antyder at den som har gjort dette ikke egentlig er tilregnelig."
         },
@@ -123,6 +127,7 @@ var UTOYA_INFO_MODULE = (function () {
                 "bruk1": "Drapsmann m. person som har begått et drap.",
                 "bruk2": "",
                 "bruk3": "",
+                "tweets_src": "bilder/terroristtweet.png",
                 "beskrivelse": "Etter gjerningsmannens offentliggjøring blir en annen fortolkningsramme aktivert. Hendelsen omtales fortsatt som grusom, gjerningsmannen karakteriseres som drapsmann og morder – men altså ikke som terrorist, slik man gjorde tidligere på dagen. Betegnelsen «drapsmann» er selvfølgelig svært negativt ladet, men det er mer knyttet til «alminnelig» kriminalitet enn terror. Det kan med andre ord virke som om mediene går fra å tolke hendelsene inn i en terrorramme til å tolke dem i en kriminalitetsramme."
         },
             {
@@ -133,6 +138,7 @@ var UTOYA_INFO_MODULE = (function () {
                 "bruk1": "Betegnelse på en person som bekjenner seg til Kristendommer og Kristus, dvs. som tilhører den kristne religion.",
                 "bruk2": "",
                 "bruk3": "",
+                "tweets_src": "bilder/muslimTweet.png",
                 "beskrivelse": "Sett i kristendommens perspektiv er Jesus langt mer enn en profet. Han er frelser, med andre ord en som gjennom en bestemt handling (sin død på korset) har sikret menneskene – forutsatt at de tror han er Messias – det største av alle goder, nemlig det evige liv som gikk tapt gjennom Adams ulydighet."
         },
 
