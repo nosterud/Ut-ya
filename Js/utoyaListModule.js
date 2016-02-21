@@ -4,19 +4,19 @@ var UTOYA_INFO_MODULE = (function () {
         "utoyaOrdList": [
         //Før gjerningsperson er funnet
             {
-                "id": "terrorism",
+                "id": "terrorisme",
                 "ord": "TERRORISME",
                 "uttalelse": "[tæru'rismə]",
                 "ord_beskrivelse": "Substantiv maskulin entall/singular.",
                 "tweets_src": "bilder/utoyatweetSorg.png",
-                "bruk1": "1. Bruk av vold og trusler for å true eller tvinge, spesielt for                          politiske formål.",
-                "bruk2": "2. Tilstand av frykt og underkastelse&nbsp; produsert av                                  terrorisme eller terrorisering.",
-                "bruk3": "3. En terroristisk metode for å styre eller motstå en                                     regjering.",
+                "bruk1": "1. Bruk av vold og trusler for å true eller tvinge, spesielt for politiske formål.",
+                "bruk2": "2. Tilstand av frykt og underkastelse&nbsp; produsert av terrorisme eller terrorisering.",
+                "bruk3": "3. En terroristisk metode for å styre eller motstå en regjering.",
                 "beskrivelse": "Tidligere var terrorisme ofte assosiert med statlige regimer som skaper ekstrem frykt i en befolkning ved hjelp av brutal voldsanvendelse, slik som Josef Stalins terror mot opposisjonelle i Sovjetunionen og Adolf Hitlers terror overfor jødene under Det tredje riket, og Pol Pots overgrep mot landets egen befolkning i Kambodsja. De alliertes bombing av Dresden samt USAs bruk av atomvåpen i Japan på slutten av den andre verdenskrig er også former for statlig bruk av målbevisst terror."
 
         },
             {
-                "id": "attack",
+                "id": "angrep",
                 "ord": "ANGREP",
                 "uttalelse": "['angre:p]",
                 "ord_beskrivelse": "Substantiv nøytrum.",
@@ -39,7 +39,7 @@ var UTOYA_INFO_MODULE = (function () {
                 "beskrivelse": "Ekstremisme og ekstrem kommer fra det latinske extremus. Uttrykket kan oversettes med «det ytterste» eller «det fjerneste», eller også «det verste». Det et uttrykk som brukes om ytterliggående holdninger. I dagligtale er bruken av ekstremisme eller prefikset ekstrem- gjerne tilfeldig og usystematisk. Det som oppfattes som «ekstremt» i noen sammenhenger, kan ansees for å være helt normalt i en annen. «Ekstremisme» kan dermed sies å være en mer systematisk gjennomtenkt posisjon, teori eller ideologi hvor ekstreme posisjoner, standpunkter etc. er vesentlige."
         },
             {
-                "id": "radical",
+                "id": "radikal",
                 "ord": "RADIKAL",
                 "uttalelse": "[radıˈkɑːl]",
                 "ord_beskrivelse": "Adjektiv",
@@ -75,7 +75,7 @@ var UTOYA_INFO_MODULE = (function () {
         },
         //Etter gjerningsperson er identifisert
             {
-                "id": "tradgedy",
+                "id": "tragedie",
                 "ord": "TRAGEDIE",
                 "uttalelse": "[tɾɑˈgeːdıə]",
                 "ord_beskrivelse": "Substantiv maskulin",
@@ -86,6 +86,7 @@ var UTOYA_INFO_MODULE = (function () {
                 "beskrivelse": "Mediene er altså mer tilbøyelige til å karakterisere terrorangrepene som «tragedier» etter at de fant ut at en hvit nordmann sto bak. Dette er talende, fordi begreper som «katastrofer», «tragedier» og «mareritt» gir bestemte konnotasjoner. De er betegnelser på hendelser som er forferdelige, men de antyder samtidig at det ikke står noen skyldige aktører bak. Ingen kan jo holdes ansvarlig for en naturkatastrofe. Ved å bruke disse betegnelsene toner man altså ned at dette er handlinger utført av en bevisst aktør."
         },
             {
+                "id": "katastrofe",
                 "ord": "KATASTROFE",
                 "uttalelse": "[kɑtɑ'stɾuːfə]",
                 "ord_beskrivelse": "Substantiv maskunlin",
@@ -97,7 +98,7 @@ var UTOYA_INFO_MODULE = (function () {
                 "ekstraTekst": "Begreper som «katastrofer», «tragedier» og «mareritt» gir bestemte konnotasjoner. De er betegnelser på hendelser som er forferdelige, men antyder samtidig at det ikke står noen skyldige aktører bak. Ingen kan jo holdes ansvarlig for en naturkatastrofe."
         },
             {
-                "id": "unhuman",
+                "id": "umenneskelig",
                 "ord": "UMENNESKELIG",
                 "uttalelse": "[ʉˈmenskəlı]",
                 "ord_beskrivelse": "Adjektiv",
@@ -108,7 +109,7 @@ var UTOYA_INFO_MODULE = (function () {
                 "beskrivelse": "Vi ser at handlingene i perioden etter at identitenen av gjerningsmannen offentliggjøres karakteriseres som «avskyelige», «umenneskelige» og «vanvittige», eller rett og slett som «galskap» – men kun etter at gjerningsmannens nasjonalitet ble offentliggjort. Spesielt bruken av ordene «vanvittige handlinger» og «galskap» er talende. De antyder at den som har gjort dette ikke egentlig er tilregnelig."
         },
             {
-                "id": "crazy",
+                "id": "galskap",
                 "ord": "GALSKAP",
                 "uttalelse": "[gɑːlskɑːp]",
                 "ord_beskrivelse": "Substantiv maskulin",
@@ -120,7 +121,7 @@ var UTOYA_INFO_MODULE = (function () {
                 "ekstraTekst": "Handlingene i perioden etter at gjerningsmannens identitet offentliggjøres karakteriseres blant annet som «galskap» – men kun etter at gjerningsmannens nasjonalitet ble offentliggjort. Spesielt bruken av ordene «vanvittige handlinger» og «galskap» er talende. De antyder at den som har gjort dette ikke egentlig er tilregnelig."
         },
             {
-                "id": "killer",
+                "id": "drapsmann",
                 "ord": "DRAPSMANN",
                 "uttalelse": "[dɾɑːps'mɑn]",
                 "ord_beskrivelse": "Substantiv maskulin",
@@ -131,7 +132,7 @@ var UTOYA_INFO_MODULE = (function () {
                 "beskrivelse": "Etter gjerningsmannens offentliggjøring blir en annen fortolkningsramme aktivert. Hendelsen omtales fortsatt som grusom, gjerningsmannen karakteriseres som drapsmann og morder – men altså ikke som terrorist, slik man gjorde tidligere på dagen. Betegnelsen «drapsmann» er selvfølgelig svært negativt ladet, men det er mer knyttet til «alminnelig» kriminalitet enn terror. Det kan med andre ord virke som om mediene går fra å tolke hendelsene inn i en terrorramme til å tolke dem i en kriminalitetsramme."
         },
             {
-                "id": "christian",
+                "id": "kristen",
                 "ord": "KRISTEN",
                 "uttalelse": "['kɾistən]",
                 "ord_beskrivelse": "Substantiv maskulin",
