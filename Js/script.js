@@ -102,7 +102,7 @@
                 }); // Knapper før Funnet gjerningsmann END
 
                 // Knapper etter funnet gjerningsmann START
-                $(".terrorism").click(function () {
+                $(".terrorisme").click(function () {
                     $(this)
                         .html(UTOYA_INFO_MODULE.getList()[6].ord)
 
